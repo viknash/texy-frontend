@@ -1,7 +1,7 @@
 CleverStack Angular Seed
 ====================
 [![GitHub version](https://badge.fury.io/gh/cleverstack%2Fangular-seed.png)](http://badge.fury.io/gh/cleverstack%2Fangular-seed) [![Dependency Status](https://david-dm.org/CleverStack/angular-seed.png)](https://david-dm.org/CleverStack/angular-seed) [![devDependency Status](https://david-dm.org/CleverStack/angular-seed/dev-status.png)](https://david-dm.org/CleverStack/angular-seed#info=devDependencies) [![Code Climate](https://codeclimate.com/github/CleverStack/angular-seed.png)](https://codeclimate.com/github/CleverStack/angular-seed) 
-[![Build Status](https://secure.travis-ci.org/CleverStack/angular-seed.png?branch=master)](https://travis-ci.org/CleverStack/angular-seed) 
+[![Build Status](https://secure.travis-ci.org/CleverStack/angular-seed.png?branch=master)](https://travis-ci.org/viknash/angular-seed) 
 [![Coverage](https://codeclimate.com/github/CleverStack/angular-seed/coverage.png)](https://codeclimate.com/github/CleverStack/angular-seed) 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) 
 
