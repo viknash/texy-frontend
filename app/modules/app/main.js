@@ -10,6 +10,8 @@ define([
   './controllers/ApplicationController',
   './controllers/HomeController'
 
-], function() {
+], function () {
 
 });
+
+//require(['./modules/app/grande.js']);

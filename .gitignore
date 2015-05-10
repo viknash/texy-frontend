@@ -22,3 +22,7 @@ scripts/Chromedriver
 scripts/chromedriver_2.9.zip
 
 scripts/chromedriver_2.10.zip
+/app/scripts/lib
+/app/styles/lib
+/app/styles/font
+/app/styles/img
