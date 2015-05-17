@@ -1,11 +1,12 @@
-define( [ 'angular', 'app' ], function( ng ) {
+define(['angular', 'grande', 'app'], function (ng, grande) {
   'use strict';
 
   ng
-  .module( 'app.controllers' )
-  .controller( 'HomeController', function( $scope, Helpers ) {
-    $scope.welcome = 'Welcome to the CleverStack AngularJS Front-end!';
-    $scope.helpers = Helpers;
-  });
+    .module('app.controllers')
+    .controller('HomeController', function ($scope, Helpers) {
+      $scope.welcome = 'Texy Dev';
+      $scope.helpers = Helpers;
+      grande.bind(document.querySelectorAll('article'));
+    });
 
 });

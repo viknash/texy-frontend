@@ -43,6 +43,7 @@ module.exports = function (grunt) {
           '<%= appConfig.dev.path %>/{,*/}*.html',
           '<%= appConfig.dev.path %>/modules/**/{,*/}*.{css,js,html}',
           '{.tmp,<%= appConfig.dev.path %>}/styles/*.css',
+          '{.tmp,<%= appConfig.dev.path %>}/config/*.json',
           '{.tmp,<%= appConfig.dev.path %>}/views/{,*/}*.html',
           '{.tmp,<%= appConfig.dev.path %>}/scripts/{,*/}*.js',
           '<%= appConfig.dev.path %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'

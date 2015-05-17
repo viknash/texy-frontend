@@ -13,5 +13,3 @@ define([
 ], function () {
 
 });
-
-//require(['./modules/app/grande.js']);

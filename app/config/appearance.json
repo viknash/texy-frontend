@@ -1,0 +1,14 @@
+{
+  "menu": {
+    "animation": {
+      "in": {
+        "type": "flipInX",
+        "duration": 180000
+      },
+      "out": {
+        "type": "fadeOutDown",
+        "duration": 1800
+      }
+    }
+  }
+}

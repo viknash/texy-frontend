@@ -33,6 +33,7 @@ require.config({
     image: '../components/requirejs-plugins/src/image',
     json: '../components/requirejs-plugins/src/json',
     grande: '../scripts/lib/grande.min',
+    animo: '../components/animo.js/animo'
   },
   shim: {
     angular: {
@@ -91,7 +92,13 @@ require.config({
     },
     jqueryMinicolors: {
       deps: ['jquery']
-    }
+    },
+    grande: {
+      exports: 'grande'
+    },
+    animo: {
+      deps: ['jquery']
+    },
   },
   waitSeconds: 15
 });
@@ -118,7 +125,6 @@ require([
   'cs_messenger',
   'auth',
   'roles',
-  'grande',
 
   // Main app module
   'app',
@@ -126,17 +132,10 @@ require([
   // Custom modules
 
 
-], function (angular, grande) {
+], function (angular) {
   'use strict';
-
   angular.element(document).ready(function () {
     angular.bootstrap(document, ['app']);
-    grande.bind(document.querySelectorAll('article'));
 
   });
-});
-
-require(['grande'], function (grande) {
-  'use strict';
-  grande.bind(document.querySelectorAll('article'));
 });

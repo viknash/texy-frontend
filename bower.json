@@ -42,7 +42,9 @@
     "momentjs": "~2.8.1",
     "jquery-minicolors": "~2.1.6",
     "requirejs-text": "^2.0.14",
-    "requirejs-plugins": "^1.0.3"
+    "requirejs-plugins": "^1.0.3",
+    "require-css": "^0.1.8",
+    "animo.js": "*"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",
