@@ -27,3 +27,4 @@ scripts/chromedriver_2.10.zip
 /app/styles/font
 /app/styles/img
 /app/styles/application.css
+/app/config/animations.json

@@ -1,14 +1,30 @@
 {
   "menu": {
     "animation": {
-      "in": {
-        "type": "flipInX",
-        "duration": 180000
-      },
-      "out": {
-        "type": "fadeOutDown",
-        "duration": 1800
-      }
+      "show": [
+        {
+          "type": "popUpwards",
+          "duration": 1.0
+        }
+      ],
+      "in": [
+        {
+          "type": "fadeIn",
+          "duration": 0.25
+        }
+      ],
+      "out": [
+        {
+          "type": "fadeOut",
+          "duration": 0.25
+        }
+      ],
+      "hide": [
+        {
+          "type": "fadeOutRight",
+          "duration": 0.75
+        }
+      ]
     }
   }
 }
